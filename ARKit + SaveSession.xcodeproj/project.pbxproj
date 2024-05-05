@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		5E68A5292BE3E2C2007FF8E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A5282BE3E2C2007FF8E2 /* AppDelegate.swift */; };
 		5E68A52B2BE3E2C2007FF8E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A52A2BE3E2C2007FF8E2 /* SceneDelegate.swift */; };
-		5E68A52D2BE3E2C2007FF8E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A52C2BE3E2C2007FF8E2 /* ViewController.swift */; };
-		5E68A5302BE3E2C2007FF8E2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5E68A52F2BE3E2C2007FF8E2 /* Base */; };
 		5E68A5322BE3E2C2007FF8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E68A5312BE3E2C2007FF8E2 /* Assets.xcassets */; };
 		5E68A5352BE3E2C2007FF8E2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5E68A5342BE3E2C2007FF8E2 /* Base */; };
-		5E68A5402BE3E2C2007FF8E2 /* ARKit___SaveSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A53F2BE3E2C2007FF8E2 /* ARKit___SaveSessionTests.swift */; };
-		5E68A54A2BE3E2C2007FF8E2 /* ARKit___SaveSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A5492BE3E2C2007FF8E2 /* ARKit___SaveSessionUITests.swift */; };
-		5E68A54C2BE3E2C2007FF8E2 /* ARKit___SaveSessionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A54B2BE3E2C2007FF8E2 /* ARKit___SaveSessionUITestsLaunchTests.swift */; };
+		5E68A5592BE3E3A5007FF8E2 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A5582BE3E3A5007FF8E2 /* ARViewController.swift */; };
+		5E68A5712BE3E47C007FF8E2 /* INARController + Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A56E2BE3E3DA007FF8E2 /* INARController + Gestures.swift */; };
+		5E68A5722BE3E47F007FF8E2 /* INARController + SceneRenderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A56F2BE3E3DA007FF8E2 /* INARController + SceneRenderDelegate.swift */; };
+		5E68A5732BE3E482007FF8E2 /* SmartHitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A56D2BE3E3DA007FF8E2 /* SmartHitTest.swift */; };
+		5E68A5832BE3E523007FF8E2 /* float4x4+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A57D2BE3E523007FF8E2 /* float4x4+Extension.swift */; };
+		5E68A5842BE3E523007FF8E2 /* FocusNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A57E2BE3E523007FF8E2 /* FocusNode.swift */; };
+		5E68A5852BE3E523007FF8E2 /* FocusPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A57F2BE3E523007FF8E2 /* FocusPlane.swift */; };
+		5E68A5862BE3E523007FF8E2 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A5802BE3E523007FF8E2 /* FocusSquare.swift */; };
+		5E68A5872BE3E523007FF8E2 /* FocusSquare+Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E68A5812BE3E523007FF8E2 /* FocusSquare+Segment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +43,20 @@
 		5E68A5252BE3E2C2007FF8E2 /* ARKit + SaveSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit + SaveSession.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E68A5282BE3E2C2007FF8E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E68A52A2BE3E2C2007FF8E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E68A52C2BE3E2C2007FF8E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E68A52F2BE3E2C2007FF8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E68A5312BE3E2C2007FF8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E68A5342BE3E2C2007FF8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E68A5362BE3E2C2007FF8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E68A53B2BE3E2C2007FF8E2 /* ARKit + SaveSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit + SaveSessionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E68A53F2BE3E2C2007FF8E2 /* ARKit___SaveSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARKit___SaveSessionTests.swift"; sourceTree = "<group>"; };
 		5E68A5452BE3E2C2007FF8E2 /* ARKit + SaveSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit + SaveSessionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E68A5492BE3E2C2007FF8E2 /* ARKit___SaveSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARKit___SaveSessionUITests.swift"; sourceTree = "<group>"; };
-		5E68A54B2BE3E2C2007FF8E2 /* ARKit___SaveSessionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARKit___SaveSessionUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		5E68A5582BE3E3A5007FF8E2 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		5E68A56D2BE3E3DA007FF8E2 /* SmartHitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHitTest.swift; sourceTree = "<group>"; };
+		5E68A56E2BE3E3DA007FF8E2 /* INARController + Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "INARController + Gestures.swift"; sourceTree = "<group>"; };
+		5E68A56F2BE3E3DA007FF8E2 /* INARController + SceneRenderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "INARController + SceneRenderDelegate.swift"; sourceTree = "<group>"; };
+		5E68A57D2BE3E523007FF8E2 /* float4x4+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "float4x4+Extension.swift"; sourceTree = "<group>"; };
+		5E68A57E2BE3E523007FF8E2 /* FocusNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusNode.swift; sourceTree = "<group>"; };
+		5E68A57F2BE3E523007FF8E2 /* FocusPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusPlane.swift; sourceTree = "<group>"; };
+		5E68A5802BE3E523007FF8E2 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		5E68A5812BE3E523007FF8E2 /* FocusSquare+Segment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FocusSquare+Segment.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +87,8 @@
 		5E68A51C2BE3E2C1007FF8E2 = {
 			isa = PBXGroup;
 			children = (
+				5E68A5822BE3E523007FF8E2 /* FocusNode */,
 				5E68A5272BE3E2C2007FF8E2 /* ARKit + SaveSession */,
-				5E68A53E2BE3E2C2007FF8E2 /* ARKit + SaveSessionTests */,
-				5E68A5482BE3E2C2007FF8E2 /* ARKit + SaveSessionUITests */,
 				5E68A5262BE3E2C2007FF8E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +106,45 @@
 		5E68A5272BE3E2C2007FF8E2 /* ARKit + SaveSession */ = {
 			isa = PBXGroup;
 			children = (
-				5E68A5282BE3E2C2007FF8E2 /* AppDelegate.swift */,
-				5E68A52A2BE3E2C2007FF8E2 /* SceneDelegate.swift */,
-				5E68A52C2BE3E2C2007FF8E2 /* ViewController.swift */,
-				5E68A52E2BE3E2C2007FF8E2 /* Main.storyboard */,
-				5E68A5312BE3E2C2007FF8E2 /* Assets.xcassets */,
+				5E68A5702BE3E419007FF8E2 /* System */,
+				5E68A56C2BE3E3DA007FF8E2 /* HitTest */,
+				5E68A5582BE3E3A5007FF8E2 /* ARViewController.swift */,
 				5E68A5332BE3E2C2007FF8E2 /* LaunchScreen.storyboard */,
-				5E68A5362BE3E2C2007FF8E2 /* Info.plist */,
 			);
 			path = "ARKit + SaveSession";
 			sourceTree = "<group>";
 		};
-		5E68A53E2BE3E2C2007FF8E2 /* ARKit + SaveSessionTests */ = {
+		5E68A56C2BE3E3DA007FF8E2 /* HitTest */ = {
 			isa = PBXGroup;
 			children = (
-				5E68A53F2BE3E2C2007FF8E2 /* ARKit___SaveSessionTests.swift */,
+				5E68A56E2BE3E3DA007FF8E2 /* INARController + Gestures.swift */,
+				5E68A56F2BE3E3DA007FF8E2 /* INARController + SceneRenderDelegate.swift */,
+				5E68A56D2BE3E3DA007FF8E2 /* SmartHitTest.swift */,
 			);
-			path = "ARKit + SaveSessionTests";
+			path = HitTest;
 			sourceTree = "<group>";
 		};
-		5E68A5482BE3E2C2007FF8E2 /* ARKit + SaveSessionUITests */ = {
+		5E68A5702BE3E419007FF8E2 /* System */ = {
 			isa = PBXGroup;
 			children = (
-				5E68A5492BE3E2C2007FF8E2 /* ARKit___SaveSessionUITests.swift */,
-				5E68A54B2BE3E2C2007FF8E2 /* ARKit___SaveSessionUITestsLaunchTests.swift */,
+				5E68A52A2BE3E2C2007FF8E2 /* SceneDelegate.swift */,
+				5E68A5282BE3E2C2007FF8E2 /* AppDelegate.swift */,
+				5E68A5362BE3E2C2007FF8E2 /* Info.plist */,
+				5E68A5312BE3E2C2007FF8E2 /* Assets.xcassets */,
 			);
-			path = "ARKit + SaveSessionUITests";
+			path = System;
+			sourceTree = "<group>";
+		};
+		5E68A5822BE3E523007FF8E2 /* FocusNode */ = {
+			isa = PBXGroup;
+			children = (
+				5E68A57D2BE3E523007FF8E2 /* float4x4+Extension.swift */,
+				5E68A57E2BE3E523007FF8E2 /* FocusNode.swift */,
+				5E68A57F2BE3E523007FF8E2 /* FocusPlane.swift */,
+				5E68A5802BE3E523007FF8E2 /* FocusSquare.swift */,
+				5E68A5812BE3E523007FF8E2 /* FocusSquare+Segment.swift */,
+			);
+			path = FocusNode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +253,6 @@
 			files = (
 				5E68A5322BE3E2C2007FF8E2 /* Assets.xcassets in Resources */,
 				5E68A5352BE3E2C2007FF8E2 /* Base in Resources */,
-				5E68A5302BE3E2C2007FF8E2 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +277,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E68A52D2BE3E2C2007FF8E2 /* ViewController.swift in Sources */,
+				5E68A5722BE3E47F007FF8E2 /* INARController + SceneRenderDelegate.swift in Sources */,
+				5E68A5832BE3E523007FF8E2 /* float4x4+Extension.swift in Sources */,
 				5E68A5292BE3E2C2007FF8E2 /* AppDelegate.swift in Sources */,
+				5E68A5842BE3E523007FF8E2 /* FocusNode.swift in Sources */,
 				5E68A52B2BE3E2C2007FF8E2 /* SceneDelegate.swift in Sources */,
+				5E68A5732BE3E482007FF8E2 /* SmartHitTest.swift in Sources */,
+				5E68A5852BE3E523007FF8E2 /* FocusPlane.swift in Sources */,
+				5E68A5592BE3E3A5007FF8E2 /* ARViewController.swift in Sources */,
+				5E68A5712BE3E47C007FF8E2 /* INARController + Gestures.swift in Sources */,
+				5E68A5862BE3E523007FF8E2 /* FocusSquare.swift in Sources */,
+				5E68A5872BE3E523007FF8E2 /* FocusSquare+Segment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E68A5402BE3E2C2007FF8E2 /* ARKit___SaveSessionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E68A54C2BE3E2C2007FF8E2 /* ARKit___SaveSessionUITestsLaunchTests.swift in Sources */,
-				5E68A54A2BE3E2C2007FF8E2 /* ARKit___SaveSessionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5E68A52E2BE3E2C2007FF8E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E68A52F2BE3E2C2007FF8E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5E68A5332BE3E2C2007FF8E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +460,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3BZB3Q66B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ARKit + SaveSession/Info.plist";
+				INFOPLIST_FILE = "ARKit + SaveSession/System/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Мы используем камеру для обнаружения объектов в AR.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,7 +489,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3BZB3Q66B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ARKit + SaveSession/Info.plist";
+				INFOPLIST_FILE = "ARKit + SaveSession/System/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Мы используем камеру для обнаружения объектов в AR.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
